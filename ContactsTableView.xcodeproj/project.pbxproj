@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		11A1328D257FAC0A0042AEE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1328C257FAC0A0042AEE4 /* AppDelegate.swift */; };
 		11A1328F257FAC0A0042AEE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1328E257FAC0A0042AEE4 /* SceneDelegate.swift */; };
-		11A13291257FAC0A0042AEE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A13290257FAC0A0042AEE4 /* ViewController.swift */; };
 		11A13294257FAC0A0042AEE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A13292257FAC0A0042AEE4 /* Main.storyboard */; };
 		11A13296257FAC0E0042AEE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A13295257FAC0E0042AEE4 /* Assets.xcassets */; };
 		11A13299257FAC0E0042AEE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A13297257FAC0E0042AEE4 /* LaunchScreen.storyboard */; };
+		11B92141257FBFC30063AFC9 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B92140257FBFC30063AFC9 /* ContactListViewController.swift */; };
+		11B92144257FC0560063AFC9 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B92143257FC0560063AFC9 /* Person.swift */; };
+		11B92147257FC0670063AFC9 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B92146257FC0670063AFC9 /* DataManager.swift */; };
+		11B9214A257FC4390063AFC9 /* PhoneandEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B92149257FC4390063AFC9 /* PhoneandEmailViewController.swift */; };
+		11B9214E257FC94D0063AFC9 /* SelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B9214D257FC94D0063AFC9 /* SelectionTableViewController.swift */; };
+		11B92152257FCBB20063AFC9 /* HeadCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B92151257FCBB20063AFC9 /* HeadCellTableViewCell.swift */; };
+		11B92156257FD9BD0063AFC9 /* ТabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B92155257FD9BD0063AFC9 /* ТabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11A13289257FAC0A0042AEE4 /* ContactsTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A1328C257FAC0A0042AEE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11A1328E257FAC0A0042AEE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11A13290257FAC0A0042AEE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		11A13293257FAC0A0042AEE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11A13295257FAC0E0042AEE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11A13298257FAC0E0042AEE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11A1329A257FAC0E0042AEE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B92140257FBFC30063AFC9 /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		11B92143257FC0560063AFC9 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		11B92146257FC0670063AFC9 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		11B92149257FC4390063AFC9 /* PhoneandEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneandEmailViewController.swift; sourceTree = "<group>"; };
+		11B9214D257FC94D0063AFC9 /* SelectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionTableViewController.swift; sourceTree = "<group>"; };
+		11B92151257FCBB20063AFC9 /* HeadCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadCellTableViewCell.swift; sourceTree = "<group>"; };
+		11B92155257FD9BD0063AFC9 /* ТabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ТabBarViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +70,14 @@
 			children = (
 				11A1328C257FAC0A0042AEE4 /* AppDelegate.swift */,
 				11A1328E257FAC0A0042AEE4 /* SceneDelegate.swift */,
-				11A13290257FAC0A0042AEE4 /* ViewController.swift */,
+				11B92140257FBFC30063AFC9 /* ContactListViewController.swift */,
+				11B9214D257FC94D0063AFC9 /* SelectionTableViewController.swift */,
+				11B92155257FD9BD0063AFC9 /* ТabBarViewController.swift */,
+				11B92151257FCBB20063AFC9 /* HeadCellTableViewCell.swift */,
 				11A13292257FAC0A0042AEE4 /* Main.storyboard */,
+				11B92149257FC4390063AFC9 /* PhoneandEmailViewController.swift */,
+				11B92143257FC0560063AFC9 /* Person.swift */,
+				11B92146257FC0670063AFC9 /* DataManager.swift */,
 				11A13295257FAC0E0042AEE4 /* Assets.xcassets */,
 				11A13297257FAC0E0042AEE4 /* LaunchScreen.storyboard */,
 				11A1329A257FAC0E0042AEE4 /* Info.plist */,
@@ -137,9 +155,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11A13291257FAC0A0042AEE4 /* ViewController.swift in Sources */,
+				11B92144257FC0560063AFC9 /* Person.swift in Sources */,
+				11B92147257FC0670063AFC9 /* DataManager.swift in Sources */,
+				11B9214E257FC94D0063AFC9 /* SelectionTableViewController.swift in Sources */,
+				11B92152257FCBB20063AFC9 /* HeadCellTableViewCell.swift in Sources */,
+				11B92141257FBFC30063AFC9 /* ContactListViewController.swift in Sources */,
 				11A1328D257FAC0A0042AEE4 /* AppDelegate.swift in Sources */,
 				11A1328F257FAC0A0042AEE4 /* SceneDelegate.swift in Sources */,
+				11B92156257FD9BD0063AFC9 /* ТabBarViewController.swift in Sources */,
+				11B9214A257FC4390063AFC9 /* PhoneandEmailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
